@@ -75,14 +75,22 @@
         </p>
       </section>
       <section id="contact">
-        <h2>Contact</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
-          doloremque, dignissimos esse deleniti nemo minima eaque aperiam,
-          officiis dolorum sapiente, ipsam laudantium sed magnam aut
-          repellendus. Labore, perferendis debitis molestias sed autem molestiae
-          harum, inventore, accusamus recusandae eius magni totam.
-        </p>
+        <h2>Contact me</h2>
+        <form method="post" action="#">
+          <fieldset>
+            <legend>Contact Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="message">Message:</label>
+            <br />
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+          </fieldset>
       </section>
     </main>
     <!-- Footer Section - footer -->
